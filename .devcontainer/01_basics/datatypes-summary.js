@@ -20,26 +20,34 @@ console.log(id === anotherId)
 
 // Arrays, Objects, Functions
 
+// Datatype for all non-primitive is Function; and datatype of Function is said object function. <-- Important for Interview perspective. 
 
 
 const heros = ["shaktiman, naagraj, doga"]
 let myObj = {
     name: "Yahya",
     age: 14,
-}
+} // Curly braces {} mai jitne bhi value hai vo Object hai..
+ 
+// Data type can be anything  --> String, Boolearn, Number, Function, Array, Another Object also, and etc. 
+
+
 
 const myFunction = function(){
      console.log("Hello World");
 }
 
-console.log(typeof bigNumber); 
+console.log(typeof bigNumber);  // Use typeof to find datatype of variable. 
 
 
 
 
 // **************************************
 
-// Stack (Primitive), Heap (Non-Primitive)
+// Stack (Primitive), Heap (Non-Primitive)     <------ Type of Memories.
+
+// Stack Memory --> We get a copy.
+// Heap Memory --> Changes are also changed in original copy.
 
 let myYoutubename = "Yahyadotcom"
 
@@ -63,3 +71,4 @@ console.log(userTwo.email);
 
 
 
+// Datatype for null will be shown as Object..   <-- Important for interview perspective.
